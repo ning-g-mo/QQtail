@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="qtail,消息尾巴,QQ消息尾巴">
+    <meta name="author" content="lemwood">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <link rel="icon" href="/icon.png">
+    <link rel="stylesheet" href="/style.css" >
+    <script type="module" src="/main.js"></script>
+    <title>QQ消息尾巴</title>
+</head>
+<body>
+    <div class="boby">
+       <div class="center">
+         <h1>QQ消息尾巴</h1>
+       </div>
+       <div class="srk"> 
+            输入前缀:<input type="text" class="qz" name="qz" id="qz"><br>
+       </div>
+       <div class="test">
+        <div class="center"> 
+          请在上方输入昵称。
+        </div>
+       </div>
+       <div class="srk"> 
+            输入尾巴:<input type="text" class="wb" name="wb" id="wb"><br>
+       </div>
+       <div class="test">
+        <div class="center"> 
+          请在上方输入消息尾巴，比如“喵~”。
+        </div>
+       </div>
+       <div class="sc"> 
+          输出结果：<span id="sc"></span>
+       </div>
+       <!-- “复制”按钮 -->
+        <div class="center"> 
+            <button class="copy" id="copy" onclick="copy()">复制</button>
+        </div>
+    </div>
+</body>
+</html>

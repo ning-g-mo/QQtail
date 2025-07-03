@@ -1,0 +1,74 @@
+body {
+    background-image: url('bj.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.center {
+    text-align: center;
+}
+.srk{
+    border-radius:15px;
+    box-shadow: 10px 10px 5px #8888887e;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+.test{
+    padding: 10px;
+}
+.qz{
+    border-style: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+.qz:focus{
+    border-style: none;
+    outline: none;
+}
+.qz:hover{
+    border-style: none;
+    outline: none;
+}
+.wb{
+    border-style: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+.wb:focus{ 
+    border-style: none;
+    outline: none;
+}
+.wb:hover{ 
+    border-style: none;
+    outline: none;
+}
+.sc{
+    border-color: beige;
+    border-style: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+.copy{
+    border-style: none;
+    border-radius: 3px;
+    margin: auto;
+    width: 150px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.685);
+    /* 调整与上面border的距离 */
+    margin-top: 10px;
+}
+.copy:hover{ 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.copy:focus{ 
+    background-color: rgba(255, 255, 255, 0.3);
+}
