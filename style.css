@@ -72,3 +72,31 @@ body {
 .copy:focus{ 
     background-color: rgba(255, 255, 255, 0.3);
 }
+
+.footer{ 
+    /* 文字居中 */
+    text-align: center;
+    /* div居中 */
+    margin: auto;
+    /* 固定至底 */
+    position: fixed;
+    bottom: 0;
+    /* 背景黑色 */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 宽度 */
+    width: 100%;
+    /* 高度 */
+    height: 80px;
+    /* 透明度 */
+    opacity: 0.5;
+    /* 文字在div上下居中 */
+    line-height: 15px;
+    /* 文字颜色为白色 */
+    color: white;
+    /* 链接颜色也是白色 */
+    a{ 
+        color: white;
+        text-decoration: none;
+    }
+
+}
